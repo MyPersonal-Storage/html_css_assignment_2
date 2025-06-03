@@ -1,0 +1,49 @@
+/* body section containig the Cards card styling div h2 p button*/
+
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: 'Lexend Deca' Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0b3a3a;
+    text-align: center;
+}
+
+.Cards{
+display: flex;
+justify-content: center;
+gap: 20px;
+max-width: 900px;
+margin: 20px auto;
+padding: 0 10px;
+flex-wrap: wrap;
+}
+
+.card{
+    border-radius: 8px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sedan{
+    background-color: #e38826;
+}
+.suv{
+    background-color: #006970;
+}
+.luxury{
+    background-color: #004241;
+}
+
+.card img{
+    margin-bottom: 10px;
+}
+
+p{
+    color: white;
+}
