@@ -30,11 +30,11 @@ body{
 }
 
 .cards{
-display: flex;
-max-width: 900px;
-margin: 100px auto;
-border border-radius: 10px;
-overflow: hidden;
+    display: flex;
+    max-width: 900px;
+    margin: 100px auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card{
@@ -54,7 +54,7 @@ overflow: hidden;
     background-color: var(--dark-cyan);
 }
 .luxury{
-    background-color: var(--dark-cyan);
+    background-color: var(--very-dark-cyan);
 }
 
 .card img{
@@ -74,8 +74,8 @@ overflow: hidden;
 }
 
 .card button{
-    color: var(--very-light-gray);
-    color: inherit;
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-cyan);
     border: none;
     padding: 12px 25px;
     border-radius: 25px;
@@ -83,9 +83,9 @@ overflow: hidden;
     font-size: 15px;
     cursor: pointer;
     align-self: flex-start;
-    transition: all 0.3 ease;
+    transition: all 0.3s ease;
 }
-.button:hover{
+.card button:hover{
     background-color: var(--transparent-white);
     color: var(--dark-cyan);
     border: 2px solid;
