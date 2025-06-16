@@ -50,14 +50,31 @@ body{
 .sedan{
     background-color: var(--bright-orange);
 }
+.sedan button:hover{
+    background-color: var(--very-light-gray);
+    color: var(--bright-orange);
+    border: 2px solid var(--bright-orange);
+}
 .suv{
     background-color: var(--dark-cyan);
+}
+.suv button:hover{
+    background-color: var(--very-light-gray);
+    color: var(--dark-cyan);
+    border: 2px solid var(--dark-cyan);
 }
 .luxury{
     background-color: var(--very-dark-cyan);
 }
+.luxury button:hover{
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-cyan);
+    border: 2px solid var(--very-dark-cyan);
+}
 
 .card img{
+    width: 50px;
+    align-self: flex-start;
     margin-bottom: 30px;
 }
 
@@ -84,9 +101,4 @@ body{
     cursor: pointer;
     align-self: flex-start;
     transition: all 0.3s ease;
-}
-.card button:hover{
-    background-color: var(--transparent-white);
-    color: var(--dark-cyan);
-    border: 2px solid;
 }
